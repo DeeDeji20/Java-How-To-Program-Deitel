@@ -3,6 +3,7 @@ package africa.semicolon.chapterFour.gasMileage;
 public class GasMileage {
     private int milesDriven;
     private int gallons;
+    double total=0;
 //    private int combinedMilesPerGallon;
 
     public GasMileage(int milesDriven, int gallons){
@@ -34,7 +35,6 @@ public class GasMileage {
     }
 
     public double combinedMilesPerGallon(){
-        int total=0;
         return total += milesPerGallon();
     }
 

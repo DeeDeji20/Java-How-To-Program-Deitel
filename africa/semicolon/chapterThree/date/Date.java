@@ -35,10 +35,10 @@ public class Date {
         this.year = year;
     }
 
-    public void displayDate(){
-        //String newDate;
+    public String displayDate(){
+        String newDate="";
 
-        System.out.printf("%d / %d / %d%n", getMonth(), getDay(), getYear());
-        // return newDate;
+//        System.out.printf("%d / %d / %d%n", getMonth(), getDay(), getYear());
+         return newDate = getMonth() +"/" + getDay() + "/" + getYear();
     }
 }

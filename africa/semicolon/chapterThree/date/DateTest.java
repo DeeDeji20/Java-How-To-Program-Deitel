@@ -7,7 +7,7 @@ public class DateTest {
         newDate.setMonth(9);
         newDate.setDay(15);
         newDate.setYear(2005);
+        System.out.println(newDate.displayDate());
 
-        newDate.displayDate();
     }
 }
