@@ -1,14 +1,20 @@
-package patterns;
+package africa.semicolon.assignments.patterns;
+
+import java.util.Scanner;
 
 public class PatternD {
     public static void main(String[] args) {
-        for (int i = 6; i >=1; i--){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the number of digits");
+        int number = scan.nextInt();
+
+        for (int i = number; i >=1; i--){
             for (int j = 1; j <=i; j++ ){
                 System.out.print( j+" ");
             }
             System.out.println();
-            for (int k=i; k<=6; k++)
-            System.out.print("  ");
+            for (int k=i; k<=number; k++)
+                System.out.print("  ");
         }
     }
 }

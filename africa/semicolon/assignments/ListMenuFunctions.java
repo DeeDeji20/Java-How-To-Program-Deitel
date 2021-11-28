@@ -1,4 +1,4 @@
-package chapterFour;
+package africa.semicolon.assignments;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class ListMenuFunctions {
                 """;
         System.out.println(menuOption);
         userChoice = scan.nextInt();
-        
+
         switch (userChoice) {
             case 1 -> {System.out.println("You selected phonebook");
                 menuOption = """
@@ -354,5 +354,4 @@ public class ListMenuFunctions {
             default -> System.out.println(userChoice + " is an invalid choice");
         }
     }
-
 }

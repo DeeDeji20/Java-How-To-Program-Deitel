@@ -1,4 +1,4 @@
-package africa.chapterSix;
+package africa.semicolon.assignments;
 
 import java.util.Scanner;
 
@@ -18,10 +18,10 @@ public class PrimeNumbers {
                 break;
             }
         }
-            if (number % 2 == 0 || number%3 == 0 || number% num ==0) {
-                System.out.println("Not prime");
-            }else{
-                System.out.println("Prime");
-            }
+        if (number % 2 == 0 || number%3 == 0 || number% num ==0) {
+            System.out.println("Not prime");
+        }else{
+            System.out.println("Prime");
+        }
     }
 }

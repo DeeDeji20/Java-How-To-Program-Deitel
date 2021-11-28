@@ -1,8 +1,13 @@
-package patterns;
+package africa.semicolon.assignments.patterns;
+
+import java.util.Scanner;
 
 public class PatternB {
     public static void main(String[] args){
-        for (int a = 6; a >=1; a --){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the number of digits");
+        int number = scan.nextInt();
+        for (int a = number; a >=1; a --){
             for(int b = 1; b <= a;  b++ ){
                 System.out.print(b+ " ");
 
@@ -11,5 +16,3 @@ public class PatternB {
         }
     }
 }
-
-

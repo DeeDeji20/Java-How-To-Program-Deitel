@@ -1,3 +1,5 @@
+package africa.semicolon.handsOn;
+
 import java.util.Scanner;
 
 public class TwelveDaysOfChristmas {

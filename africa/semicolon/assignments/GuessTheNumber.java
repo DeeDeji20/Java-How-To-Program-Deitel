@@ -1,4 +1,4 @@
-package africa.chapterSix;
+package africa.semicolon.assignments;
 
 import java.security.SecureRandom;
 import java.util.Scanner;
@@ -34,11 +34,10 @@ public class GuessTheNumber {
             System.out.println("congrats");
             options();
         }
-
     }
 
     public  static void options(){
-       String userOptions = """
+        String userOptions = """
                1. Play again
                2. Exit game
                Enter your choice
@@ -54,5 +53,4 @@ public class GuessTheNumber {
             }
         }
     }
-
 }

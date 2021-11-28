@@ -1,4 +1,4 @@
-package chapterFour;
+package africa.semicolon.assignments;
 
 import java.util.Scanner;
 
