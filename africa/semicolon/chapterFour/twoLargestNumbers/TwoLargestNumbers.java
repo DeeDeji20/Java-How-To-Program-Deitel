@@ -15,7 +15,7 @@ public class TwoLargestNumbers {
             if(value > largestNumber){
                 largestNumber = value;
             }
-            if(value > secondLargest && value != largestNumber){
+            if(value != largestNumber && value > secondLargest ){
                 secondLargest = value;
                 System.out.println(secondLargest);
             }
