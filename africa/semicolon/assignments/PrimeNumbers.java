@@ -18,7 +18,7 @@ public class PrimeNumbers {
                 break;
             }
         }
-        if (number % 2 == 0 || number%3 == 0 || number% num ==0) {
+        if (number>3 && (number % 2 == 0 || number%3 == 0 || number% num ==0)) {
             System.out.println("Not prime");
         }else{
             System.out.println("Prime");

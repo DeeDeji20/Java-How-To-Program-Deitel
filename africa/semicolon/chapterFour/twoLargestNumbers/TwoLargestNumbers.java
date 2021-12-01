@@ -9,24 +9,14 @@ public class TwoLargestNumbers {
         int count=0;
         int largestNumber =Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
-//        int largestStore = largestNumber;
-        int temp = largestNumber;
-        System.out.println(temp);
-        while (count < 4){
+        while (count < 10){
             System.out.println("Enter numbers");
             value = scan.nextInt();
-
-            if (value > secondLargest){
-                temp = value;
-            }
             if(value > largestNumber){
+                secondLargest = largestNumber;
                 largestNumber = value;
-
             }
-            else if(value > secondLargest && value < largestNumber){
-                secondLargest = temp;
-//                    System.out.println(secondLargest);
-            }else {
+            else if(value > secondLargest){
                 secondLargest = value;
             }
             ++count;
